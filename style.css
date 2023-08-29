@@ -74,6 +74,7 @@ main {
 }
 
 .box {
+  scroll-margin-top: 10rem;
   background-image: linear-gradient(red, white);
   border: 2px solid black;
   padding: 2rem;
@@ -86,6 +87,9 @@ main {
   grid-auto-flow: row;
   gap: 40px;
   box-shadow: 0 0 6px black;
+}
+.box:target{
+  border: 2px solid white;
 }
 img {
   border-radius: 50%;
